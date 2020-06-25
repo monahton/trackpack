@@ -1,0 +1,13 @@
+Package: trackpack
+Title: Shiny App to track downloads of my own package
+Version: 0.0.0.9000
+Authors@R: person('Monah', 'Abou Alezz', email = 'monah.aboualezz@igm.cnr.it', role = c('cre', 'aut'))
+Description: Application download data from CRAN. Application is visualizing data to the user. User can select the timespan of interest.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
